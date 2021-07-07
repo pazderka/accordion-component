@@ -1,0 +1,52 @@
+{
+  "name": "accordion-component",
+  "version": "1.0.0",
+  "description": "A responsive accordion component",
+  "main": "main.js",
+  "scripts": {
+    "check-js": "eslint --ext .js assets/js",
+    "check-css": "stylelint assets/**/*.scss",
+    "build": "webpack --config webpack.prod.js",
+    "watch": "webpack serve --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pazderka/accordion-component.git"
+  },
+  "keywords": [
+    "Accordion",
+    "responsive",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "premysl.pazderka@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pazderka/accordion-component/issues"
+  },
+  "homepage": "https://github.com/pazderka/accordion-component#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.15.2",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.30.0",
+    "eslint-plugin-import": "^2.23.4",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss": "^8.3.5",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.19.0",
+    "webpack": "^5.43.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
