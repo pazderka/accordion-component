@@ -1,0 +1,14 @@
+body {
+  font-family: $main-ff;
+  line-height: $global-line-heihgt;
+}
+
+.site-title {
+  padding: 2em;
+  text-align: center;
+}
+
+.container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+}

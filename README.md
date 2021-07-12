@@ -1,3 +1,10 @@
 # Pure JS / CSS accordion component
 
-Simple accordion component, built with no framework or other site dependency, its all pure js and css, so it is pretty lightweight. You can use it and modify whereever you want.
+Accordion component built with no framework, distributed under MIT license.
+
+# Supported browsers
+- Chrome (last 2 versions)
+- Firefox (last 2 versions)
+- Opera (last 2 versions)
+- Safari (last 2 versions)
+- Edge (last 2 versions)
